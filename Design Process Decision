@@ -26,3 +26,21 @@ we decided to go with SQL for User Accounts Database.
   SQL allows for structured data for user information to follow a defined schema. Our SQL database MySQL is highly effective
 at managing structured data with cleaer relationships and dependencies. 
 
+  MySQL also allows for data integrity and consistency. As stated before, MySQL offers Atomicity, Consistency, Isolation, and 
+Durability compliance which helps with the integrity of data such as authentication, payment records, and rewards tracking. This
+is essential for sensitive user data and maintaining trust with our customers. SQL databases also provide roobust security features
+for authentication and authorization. To maintain a high level of control over our user's data, SQL databases can implement 
+constraints, triggers, and stored procedures.
+
+  Furthermore, SQL allows for complex transactions like login verification, ticket purchasing, payment processing, and issuing
+refunds. MySQL is designed to handle these transactions reliably, ensuring data consistency even in the event of a system failure.
+
+  Finally, MySQL databases are extremely organized and support use of multiple related tables such as "User Info", "Payment History",
+and "Reward Data". This will allow user data to segment correctly, ensuring efficient access.
+
+  In conclusion, NoSQL databases like MongoDB for movie and theater databases allow flexibility and scalability to manage 
+high traffic, real time data. We also use MySQL's structured and reliable framework for managing the user accounts database,
+ensuring data integrity, security, and safe transaction handling supported by an organized structure with tables and strict schema adherence.
+  
+
+
