@@ -1,1 +1,22 @@
+{
+  "movie_id": ObjectId("000001"),
+  "title": "Smile 2",
+  "description": "Global pop star experience increasingly terrfying and inexplicable events.",
+  "release_year": 2024,
+  "genres": ["Horror", "Thriller"],
+  "rating": 5.7,
+  "duration": 132,  // Duration in minutes
+  "showtimes": [
+    {
+      "theater_id": ObjectId("LosAngeles01"),
+      "date": "2024-11-08",
+      "times": ["2:00 PM", "6:00 PM", "9:00 PM"]
+    },
+    {
+      "theater_id": ObjectId("NewYork01"),
+      "date": "2024-11-09",
+      "times": ["3:00 PM", "7:00 PM", "10:00 PM"]
+    }
+  ]
+}
 
