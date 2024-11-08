@@ -8,12 +8,12 @@
   "duration": 132,  // Duration in minutes
   "showtimes": [
     {
-      "theater_id": ObjectId("LosAngeles01"),
+      "theater_id": ObjectId("tLA001"),
       "date": "2024-11-08",
       "times": ["2:00 PM", "6:00 PM", "9:00 PM"]
     },
     {
-      "theater_id": ObjectId("NewYork01"),
+      "theater_id": ObjectId("tNY001"),
       "date": "2024-11-09",
       "times": ["3:00 PM", "7:00 PM", "10:00 PM"]
     }
