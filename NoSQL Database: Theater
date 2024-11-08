@@ -33,23 +33,4 @@
   ]
 }
 
-JSON Document Description:
 
-theater_id | String | Unique identifier for each theater
-name | String | Name of the theater
-address | String | Address of the theater
-contact_number | String | Contact number of the theater
-layout | Object | Details of rows, columns, and seating sections of the theater
-seating_info | Object Array | List of seats with location, availability and accessibility info
-
-layout field:
-rows | int | Number of rows in the theater
-columns | int | Number of seats per row
-special | Array | List of special seats (e.g., ADA-compliant)
-
-seating_info field:
-seat_id | String | Unique ID for the seat
-row | int | Row number of the seat
-column | int | Column number of the seat
-is_available | boolean | Seat availability status 
-is_accessible | boolean | indicates if the seat is ADA-compliant
