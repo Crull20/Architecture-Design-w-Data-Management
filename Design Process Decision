@@ -3,8 +3,15 @@ NoSQL for Movie and Theater Databases
 Having a NoSQL database for movie and theater databases is helpful for us due to its flexibility and scalability.
 They're helpful since our databases deal with diverse and complex data structures that change frequently.The NoSQL
 handles flexibility in it's data related to movies (ie., titles, genres, ratings, descriptions, showtimes). as well 
-as theater layouts - seating arrangements, accessible compliant areas (ADA), and seat statuses. NoSQL databases 
-allow for schema-less data models which make it easier to adapt to new types of data without harmful altercations.
-The NoSQL database also helps with scalability in that the movie databases and theater data need to manage high traffic
-loads, especially during busy movie times and major hollywood releases. NoSQL databases provide horizontal scalability as well
-allowing the data to be distributed across multiple servers fast and efficiently. 
+as theater layouts - seating arrangements, accessible compliant areas (ADA), and seat statuses. 
+
+NoSQL databases allow for schema-less data models which make it easier to adapt to new types of data without harmful 
+altercations. The NoSQL database also helps with scalability in that the movie databases and theater data need to manage
+high traffic loads, especially during busy movie times and major hollywood releases. NoSQL databases provide horizontal 
+scalability as well allowing the data to be distributed across multiple servers fast and efficiently. 
+
+NoSQL systems also allow for complex queries like showtimes, theater locations, seat availability. These databases 
+allow us to index and retrieve nested/unstructured data quickly, allowing faster and flexible data access.
+
+NoSQL systems also allow for real time updates on seat reservations. Due to it's object oriented nature NoSQL is useful
+for our objects like seats and theaters
