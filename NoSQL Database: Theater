@@ -1,12 +1,12 @@
 {
   "theater_id": "tLA001",
   "name": "Downtown Plaza Theater",
-  "address": "123 Main St, Downtown City",
-  "contact_number": "(123) 456-7890",
+  "address": "1720 E 16th St, Los Angeles, CA 90021",
+  "contact_number": "(619) 911-2024",
   "layout": {
     "rows": 10,
-    "columns": 20,
-    "special_sections": ["ADA Section", "VIP Section"]
+    "columns": 15,
+    "special": ["ADA Section", "VIP Section"]
   },
   "seating_info": [
     {
@@ -17,9 +17,9 @@
       "is_accessible": false
     },
     {
-      "seat_id": "A2",
-      "row": 1,
-      "column": 2,
+      "seat_id": "G6",
+      "row": 7,
+      "column": 6,
       "is_available": false,
       "is_accessible": false
     },
