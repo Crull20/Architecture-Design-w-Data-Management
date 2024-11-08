@@ -1,1 +1,35 @@
+{
+  "theater_id": "tLA001",
+  "name": "Downtown Plaza Theater",
+  "address": "123 Main St, Downtown City",
+  "contact_number": "(123) 456-7890",
+  "layout": {
+    "rows": 10,
+    "columns": 20,
+    "special_sections": ["ADA Section", "VIP Section"]
+  },
+  "seating_info": [
+    {
+      "seat_id": "A1",
+      "row": 1,
+      "column": 1,
+      "is_available": true,
+      "is_accessible": false
+    },
+    {
+      "seat_id": "A2",
+      "row": 1,
+      "column": 2,
+      "is_available": false,
+      "is_accessible": false
+    },
+    {
+      "seat_id": "B1",
+      "row": 2,
+      "column": 1,
+      "is_available": true,
+      "is_accessible": true
+    }
+  ]
+}
 
