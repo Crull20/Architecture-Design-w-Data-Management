@@ -1,12 +1,12 @@
 {
   "theater_id": "tLA001",
-  "name": "Downtown Plaza Theater",
+  "name": "1720 Theater",
   "address": "1720 E 16th St, Los Angeles, CA 90021",
   "contact_number": "(619) 911-2024",
   "layout": {
     "rows": 10,
     "columns": 15,
-    "special": ["ADA Section", "VIP Section"]
+    "special": ["ADA Section"]
   },
   "seating_info": [
     {
@@ -33,3 +33,23 @@
   ]
 }
 
+JSON Document Description:
+
+theater_id | String | Unique identifier for each theater
+name | String | Name of the theater
+address | String | Address of the theater
+contact_number | String | Contact number of the theater
+layout | Object | Details of rows, columns, and seating sections of the theater
+seating_info | Object Array | List of seats with location, availability and accessibility info
+
+layout field:
+rows | int | Number of rows in the theater
+columns | int | Number of seats per row
+special | Array | List of special seats (e.g., ADA-compliant)
+
+seating_info field:
+seat_id | String | Unique ID for the seat
+row | int | Row number of the seat
+column | int | Column number of the seat
+is_available | boolean | Seat availability status 
+is_accessible | boolean | indicates if the seat is ADA-compliant
