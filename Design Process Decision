@@ -1,17 +1,28 @@
 NoSQL for Movie and Theater Databases
   
-Having a NoSQL database for movie and theater databases is helpful for us due to its flexibility and scalability.
+  Having a NoSQL database for movie and theater databases is helpful for us due to its flexibility and scalability.
 They're helpful since our databases deal with diverse and complex data structures that change frequently.The NoSQL
 handles flexibility in it's data related to movies (ie., titles, genres, ratings, descriptions, showtimes). as well 
 as theater layouts - seating arrangements, accessible compliant areas (ADA), and seat statuses. 
 
-NoSQL databases allow for schema-less data models which make it easier to adapt to new types of data without harmful 
+  NoSQL databases allow for schema-less data models which make it easier to adapt to new types of data without harmful 
 altercations. The NoSQL database also helps with scalability in that the movie databases and theater data need to manage
 high traffic loads, especially during busy movie times and major hollywood releases. NoSQL databases provide horizontal 
 scalability as well allowing the data to be distributed across multiple servers fast and efficiently. 
 
-NoSQL systems also allow for complex queries like showtimes, theater locations, seat availability. These databases 
+  NoSQL systems also allow for complex queries like showtimes, theater locations, seat availability. These databases 
 allow us to index and retrieve nested/unstructured data quickly, allowing faster and flexible data access.
 
-NoSQL systems also allow for real time updates on seat reservations. Due to it's object oriented nature NoSQL is useful
-for our objects like seats and theaters
+  NoSQL systems also allow for real time updates on seat reservations. Due to it's object oriented nature NoSQL is useful
+for our objects like seats and theaters. The NoSQL database MongoDB allows high velocity data changes and updates so our
+customers have up to date information on seat availability and showtimes.
+
+SQL for User Accounts Database
+
+  SQL fits better for our user accounts database due to the lack of ability to perform dynamic operations in NoSQL.
+Since NoSQL is unable to guarantee ACID properties and the user account deals with things such as financial transactions
+we decided to go with SQL for User Accounts Database.
+
+  SQL allows for structured data for user information to follow a defined schema. Our SQL database MySQL is highly effective
+at managing structured data with cleaer relationships and dependencies. 
+
